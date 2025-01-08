@@ -394,7 +394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textPrefab: {fileID: 2452881099232503472, guid: e4e7c6cf100f93e4baaad7146ea18e35, type: 3}
   posIncrementSize: 2
-  endPosXCoordiante: 5
+  endPosYCoordiante: 5
   textScale: 2.5
 --- !u!1 &1174265290
 GameObject:
