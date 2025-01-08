@@ -1,20 +1,27 @@
+using UnityEditor;
 using UnityEngine;
 
 public class TextManagerScript : MonoBehaviour
 {
     [SerializeField] private GameObject textPrefab;
     [SerializeField] private float posIncrementSize;
+    [SerializeField] private int endPosXCoordiante;
+    [SerializeField] private float textScale;
+    private float scaleFactor = 0.01f;
     Vector3 startPos;
     Vector3 endPos;
     GameObject textObject;
 
+  
+
     void Start()
     {
+        float finalTextScale = textScale * scaleFactor;
         startPos = this.transform.Find("TextStartPos").position;
-        endPos = startPos + new Vector3(0, 5, 0);
+        endPos = startPos + new Vector3(0, endPosXCoordiante, 0);
 
         textObject = Instantiate(textPrefab, startPos, Quaternion.identity, transform);
-
+        textObject.transform.localScale = new Vector3(finalTextScale, finalTextScale, finalTextScale);
     }
 
     private void Update()

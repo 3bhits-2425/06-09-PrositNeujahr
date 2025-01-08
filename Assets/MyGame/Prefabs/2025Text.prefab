@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'New Year
+  m_text: 'Happy New Year
 
     2025'
   m_isRightToLeft: 0
