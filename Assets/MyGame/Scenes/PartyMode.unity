@@ -604,8 +604,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  walkDuration: 5
-  idleDuration: 2
+  walkDuration: 9
+  idleDuration: 9
   turnDuration: 3
 --- !u!1 &1174265290
 GameObject:

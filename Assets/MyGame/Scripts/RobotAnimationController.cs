@@ -3,7 +3,7 @@ using UnityEngine;
 public class RobotAnimationController : MonoBehaviour
 {
     public Animator animator; // Referenz zum Animator
-    public float walkDuration = 5f; // Dauer des Gehens in Sekunden
+    public float walkDuration = 9f; // Dauer des Gehens in Sekunden
     public float idleDuration = 2f; // Dauer des Stillstehens in Sekunden
     public float turnDuration = 3f; // Dauer der Rechtsdrehung in Sekunden
 
